@@ -1,0 +1,42 @@
+/* Posicionando estructura*/
+body {
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+/*Definiendo interlineado y fuente*/
+h1, p {
+  line-height: 0;
+  font-family: 'Rokkitt', serif;
+}
+/*Dando énfasis a pleca inferior*/
+div h1.title span{
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+/* Características del contenedor principal*/
+.container {
+  width: 45%;
+  display: grid;
+  grid-template-rows: 90px;
+  margin-bottom: 20px;
+}
+/* Definiendo medidas de columnas, celdas y espacios*/
+.photo-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 25px;
+  margin-left: 5px;
+}
+
+/*Positioning y estilo de Nombre Apellido*/
+p {
+  color: white;
+  font-weight: bolder;
+  position: relative;
+  bottom:55px;
+  left: 95px;
+}
